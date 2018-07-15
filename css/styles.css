@@ -1,6 +1,7 @@
  img{
                 max-width: 100%;
             }
+/*Font*/
  body{
  	font-size:16px;
  	font-family:'Lato', sans-serif;
@@ -27,6 +28,7 @@
  }
  h2, h3{
  	font-size: 1.5em;
+ /*Header*/
 
  }
  header{
@@ -36,7 +38,7 @@
  header h1, header h2{
  	margin:0 0 0 10px;
  	text-align: center;
-
+/*navigation bar*/
  }
  nav{
  	background: white;
@@ -67,6 +69,7 @@
  	border-radius: 5%;
 
  }
+ /*Body*/
  main {
     color: #484444;
     margin: 0 15px;
@@ -81,11 +84,13 @@ footer {
 footer p {
     margin-top: 40px;
 }
+/*images*/
 #about-me img {
     display: block;
     border-radius: 20%;
     margin: auto;
 }
+#
 #contact-list ul {
     list-style: none;
     margin: 0;
@@ -106,16 +111,24 @@ footer p {
     color: white;
     border-radius: 100%;
     font-size: 0.75em;
+
+}
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
 }
 #contact-list a:hover i.contact-icon, li.social-icon a:hover {
     transition-duration: 500ms;
     background: white;
     color: pink;
-}.social-icon-list{
+}
+.social-icon-list{
     list-style: none;
     display: block;
     margin: 20px o;
-    padding: 0
+    padding: 0;
 
 }
 
@@ -132,7 +145,6 @@ li.social-icon a{
     background: purple;
     border border-radius: 35%;
 
-
-
-
 }
+
+
